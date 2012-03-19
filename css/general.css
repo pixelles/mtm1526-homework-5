@@ -1,0 +1,40 @@
+.tab-content {
+	margin: 0px;
+	padding: 0px;
+
+	width: 452px;
+	height: 250px;
+	background-color: blue;
+	position: relative;
+}
+
+.tab-content div {
+	margin: 0px;
+	padding: 0px;
+	display: block;
+	width: 452px;
+	height: 250px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	
+}
+
+.current {
+	background-color:red ;
+	font-size: 36px;
+	z-index: 100;
+}
+
+nav ol li {
+	width: 100px;
+	margin: 0px;
+	padding: 5px;
+	display: inline-block;
+	background-color: pink;
+}
+
+ol {
+	margin: 0px;
+	padding: 0px;
+}
