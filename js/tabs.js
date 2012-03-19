@@ -3,7 +3,6 @@ $(document).ready(function() {
 	$('.tabs a').on('click', function(ev){
 		var currentTab = $(this).attr('href');
 			
-	
 		$('.tab-content .current').removeClass('current');		
 		
 		$('.tab-content div:not(.current)').hide(300);
@@ -11,8 +10,19 @@ $(document).ready(function() {
 
 	});
 
-	$('.ajax-in').on('click', function(ev) {
-		// AJAX paths are relative to the HTML file, not the JS file
+	$('.ajax-one-in').on('click', function(ev) {
 		$('.fill-me').load('one-in.html');
+	});
+	
+	$('.ajax-two-in').on('click', function(ev) {
+		$('.fill-me').load('two-in.html');
+	});
+	
+	$('.ajax-three-in').on('click', function(ev) {
+		$('.fill-me').load('three-in.html');
+	});
+	
+	$('.ajax-four-in').on('click', function(ev) {
+		$('.fill-me').load('four-in.html');
 	});
 });
